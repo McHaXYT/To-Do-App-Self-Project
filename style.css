@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #aad9bb;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 50px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #eef5ff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container h1 {
+    color: #040d12;
+    font-size: 42px;
+}
+
+.input-container p {
+    margin: 30px 0 10px 0;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.taskLeftNum {
+    font-weight: 700;
+    padding-left: 2px;
+    font-size: 18px;
+}
+
+.input-flex-container {
+    width: 100%;
+    margin: 30px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-flex-container input {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #607274;
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: #191919;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.input-flex-container i {
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-flex-container i:hover {
+    transform: rotate(90deg);
+}
+
+.list-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-container ul {
+    width: 100%;
+}
+
+.ul-divs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 15px 15px 15px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 13px;
+}
+
+.ul-divs:hover {
+    transform: translateY(-7px);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-container .ul-list:first-child {
+    margin-top: 0px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ul-list div li {
+    width: 100%;
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.ul-list div i {
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-circle-check:hover {
+    color: #4cfd00;
+}
+
+.fa-trash:hover {
+    color: #ff004d;
+}
+
+.d-none {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.redColor {
+    color: #ff004d;
+}
+
+.greenColor {
+    color: #4cfd00;
+}
+
+.ul-divs .greenColor:hover {
+    color: #ff004d;
+}
+
+.line-through {
+    text-decoration: 3px solid #ff004d line-through;
+}
